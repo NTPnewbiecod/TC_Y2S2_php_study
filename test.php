@@ -8,10 +8,10 @@
 
 <body>
   <?php
-    datefmt_set_timezone_id("Asia/Bangkok");
-    $t = date("h");
+    date_default_timezone_set("Asia/Bangkok");
+    $t = intval(date("h"));
     echo "<font size =5 color= #00ff00> .... if Statement  ... </font><br>";
-    if ($t < "5") {
+    if ($t > 5) {
       echo "The time is " . date('l jS \of F Y h:i:s A') . "<br>";
       echo "Have a good day";
     }
