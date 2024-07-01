@@ -10,7 +10,8 @@
   <?php
   // include "if_else_here.php";
   // include 'if_here.php';
-  include 'if_else_here.php';
+  // include 'if_else_here.php';
+  include "switch_case_here.php";
   ?>
 </body>
 </html>
